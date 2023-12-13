@@ -40,4 +40,5 @@ Resources:
                   arn:aws:logs:us-east-2:512816585058:log-group:/aws/lambda/searchAuthor:*
       SnapStart:
         ApplyOn: None
-      RuntimeManagementConfig: {}
+      RuntimeManagementConfig: 
+        UpdateRuntimeOn: Auto
